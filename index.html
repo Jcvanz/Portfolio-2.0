@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Julio Cesar</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="icon" type="image/x-icon" href="./img/logo.PNG"/>
+
+</head>
+<body>
+    <section id="home">
+        <!-- Barra de navegação -->
+        <header>
+            <a class="logo" href="#home">< JC /></a>
+            <nav id="nav">
+                <button id="btn-mobile">
+                    <span id="hamburger"></span>
+                </button>
+                <ul id="menu">
+                    <li><a class="link-nav btnMenu1" href="#home">Home</a></li>
+                    <li><a class="link-nav btnMenu2" href="#about">About</a></li>
+                    <li><a class="link-nav btnMenu3" href="#projects">Projects</a></li>
+                    <li><a class="link-nav btnMenu4" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Fim da Barra de navegação -->
+        
+        <!-- Home -->
+        <div class="hero-container">
+            <div class="home-content">
+                <div id="home-title">
+                    <h3>
+                        Olá, eu sou
+                        <h1 id="text">Julio Cesar.</h1>
+                        Desenvolvedor FrontEnd
+                    </h3>
+                </div>
+            </div>
+            <svg class="arrows">
+                <path class="a1" d="M0 0 L30 32 L60 0"></path>
+                <path class="a2" d="M0 20 L30 52 L60 20"></path>
+                <path class="a3" d="M0 40 L30 72 L60 40"></path>
+                <path class="a4" d="M0 60 L30 92 L60 60"></path>
+            </svg>
+        </div>
+    </section>
+    <!-- Fim da Home -->
+
+    <!-- Sobre -->
+        <section id="about">
+            <div class="content-container1">
+                <div class="profile-container">
+                    <div class="profile-content">
+                        <div class="profile-card">
+                            <img class="profile-image" src="./img/img-eu3.PNG"/>
+                            <span class="name-text">Julio Cesar Cioato Vanz</span>
+                            <span class="profile-text">
+                                Foco, disciplina e consistência.                    
+                                Vamos revolucionar o mercado de tecnologia juntos?
+                            </span>
+                            <div class="redes-content">
+                                <a href="https://www.linkedin.com/in/julio-cesar-cioato-vanz-0307a324a/" target="_blank">  
+                                    <img class="redes-logo" src="./img/linkedin-logo.png" alt="LinkedIn"/>
+                                </a>
+                                <a href="https://github.com/Jcvanz" target="_blank">  
+                                    <img class="redes-logo" src="./img/git-logo.png" alt="GitHub"/>
+                                </a>
+                                <a href="https://www.instagram.com/jc.vanz/?hl=pt-br" target="_blank">  
+                                    <img class="redes-logo" src="./img/insta-logo.png" alt="Instagram"/>
+                                </a>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="icons-container">
+                                <img class="icon-item" src="./img/logo-html.png" alt="Logo HTML"/>
+                                <img class="icon-item" src="./img/logo-css.png" alt="Logo CSS"/>
+                                <img class="icon-item" src="./img/java.png" alt="Logo JavaScript"/>
+                                <img class="icon-item" src="./img/typescript.png" alt="Logo TypeScript"/>
+                                <img class="icon-item" src="./img/reacticon.png" alt="Logo React.js"/>
+                                <img class="icon-item" src="./img/node.png" alt="Logo Node.js"/>
+                                <img class="icon-item" src="./img/sql.png" alt="Logo SQL"/>
+                                <img class="icon-item" src="./img/githubicon.png" alt="Logo GitHub"/>
+                                <img class="icon-item" src="./img/giticon.png" alt="Logo Git"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-sinopse">
+                        <h1 id="h1-title-sobre">Um pouco sobre mim</h1>
+                            Olá, meu nome é Julio, tenho 19 anos, estou cursando Ciência da computação e 
+                            atualmente estou procurando minha primeira oportunidade na área de dev front end ou full 
+                            stack. No momento estou aprendendo e aprendi a usar as tecnologias e ferramentas de CSS, HTML,
+                            JavaScript, TypeScript, React.js, Node.js, Git, GitHub e SQL através do curso Profissão  Programador, 
+                            onde já aprendi a desenvolver este portfólio, usando as linguagens acima citadas, 
+                            um site do Batman, e diversos projetinhos com JavaScript e outras linguagens. 
+                            Sou uma pessoa muito atenciosa no que faço, gosto de deixar tudo organizado e tenho a certeza que 
+                            estou pronto para somar na sua equipe de programadores. Tenho facilidade de aprendizado, boa comunicação e a todo momento busco me aprimorar cada vez mais. 
+                        <p class="sinopse">
+                            Veja abaixo alguns projetos que criei, ou fique a vontade para passar no meu GitHub,
+                            onde posto todos os códigos deles. 
+                        </p> 
+                        <div class="content-download">
+                            <a href="Julio-curriculo.docx" class="download" download>Baixar Currículo</a>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+        <!-- Projetos -->
+        <section id="projects">
+            <div class="project-hero-container">
+                <div class="project-title">
+                    <canvas id="canvas1"></canvas>
+                    <h1 id="title-projects">My Projects</h1>
+                </div>
+                <div>
+                    <h5 id="text-information">
+                        * Ao Clicar na imagem, você será redirecionado para o repositório do código no GitHub, <br> onde poderá obter mais detalhes de cada projeto. 
+                    </h5>
+                </div>
+                <div class="gallery">
+                    <div class="gallery-container">
+                        <a href="https://github.com/Jcvanz/Jogo-do-Mario" id="link-img" target="_blank"><img class="gallery-item gallery-item-1" src="./img/jogo-mario.PNG" data-index="1" target="Projeto Jogo do Mario" /></a>
+                        <a href="#" id="link-img" target="_blank"><img class="gallery-item gallery-item-2" src="./img/proj-portifolio.PNG" data-index="2" target="Projeto Protfólio" /></a>
+                        <a href="https://github.com/Jcvanz/Batman-project" id="link-img"><img class="gallery-item gallery-item-3" src="./img/batman.PNG" data-index="3" target="Projeto Site do Batman" /></a>
+                        <a href="https://github.com/Jcvanz/calculadora" id="link-img" target="_blank"><img class="gallery-item gallery-item-4" src="./img/projeto-obesidade.PNG" data-index="4" target="Projeto Calculadora de IMC" /></a>
+                        <a href="https://github.com/Jcvanz/CEP-BuscaCEP" id="link-img" target="_blank"><img class="gallery-item gallery-item-5" src="./img/cep.PNG" data-index="5" target="Projeto Busca CEP" /></a>    
+                    </div>
+                    <div class="gallery-controls"></div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Fim do Sobre -->
+
+    <!-- Contato -->
+        <section id="contact">
+            <div class="form-container">
+                <div class="form-content">
+                    <form
+                        action="https://formspree.io/f/mdovoyrl"
+                        method="POST">
+                        <h2 class="form-text">Entre em contato:</h2>
+                        <label>
+                            Nome:
+                            <input type="text" name="name" placeholder="&nbsp Coloque seu nome"/>
+                        </label>
+                        <label>
+                            Email:
+                            <input type="email" name="email" placeholder="&nbsp Coloque seu Email">
+                        </label>
+                        <label>
+                            Telefone:
+                            <input type="number" name="fone" placeholder="&nbsp Coloque seu número">
+                        </label>
+                        <label>
+                            Mensagem:
+                            <textarea name="message" placeholder="&nbsp Tire suas dúvidas"></textarea>
+                        </label>
+                        <button class="button-send" type="submit">Enviar</button>
+                    </form>
+                </div>
+
+                <div class="form-redes">
+                    <div class="form-content-redes">
+                        <h2 class="form-text-redes">Redes Sociais:</h2>
+                        <div class="form-button-redes">
+                            <a href="https://www.linkedin.com/in/julio-cesar-cioato-vanz-0307a324a/" target="_blank" class="form-button">LinkedIn</a>
+                            <a href="https://github.com/Jcvanz" target="_blank" class="form-button">GitHub</a>
+                            <a href="https://www.instagram.com/jc.vanz/?hl=pt-br" target="_blank" class="form-button">Instagram</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- Fim do Contato -->
+    <script src="script.js"></script>
+</body>
+</html>
