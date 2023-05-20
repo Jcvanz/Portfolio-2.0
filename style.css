@@ -686,10 +686,9 @@ textarea {
 
 /* Fim do Contato */
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
     /* Menu */
     body {
-        overflow-x: hidden;
         background-color: #2e2112;
     }
 
@@ -702,11 +701,6 @@ textarea {
     .link-nav:hover {
         transform: scale(1);
         filter: none;
-    }
-
-    header {
-        overflow-x: hidden;
-        max-width: 900px;
     }
 
     #menu {
@@ -778,56 +772,33 @@ textarea {
 
     /* Home */
 
-    #home {
-        width: 100vw;
-    }
-
-    .hero-container {
-        width: 100%;
-        height: 100vh;
-    }
-
     .home-content {
-        width: 100%;
         display: block;
     }
 
     #home-title {
-        margin: 160px 0 0 25px;
-        font-family: 'Oswald', sans-serif;
-        font-size: 25px;
-        text-align: justify;
+        margin: 160px 0 0 20px;
+        font-size: 20px;
     }
 
     #text {
         margin-left: 20px;
-        font-size: 65px;
+        font-size: 48px;
     }
 
     .arrows {
-        width: 90px;
         height: 900px;
-        margin: auto;
         margin-top: 100px;
-        justify-content: center;
-        align-items: center;
-
     }
 
     /* --> Sobre <-- */
 
     .content-container1 {
         height: auto;
-        width: auto;
-        background-color: #333;
     }
 
     .profile-container {
-        color: #333;
-        height: auto;
         display: block;
-        align-items: center;
-        justify-content: center;
         padding-bottom: 60px;
     }
 
@@ -838,16 +809,8 @@ textarea {
     }
 
     .profile-card {
-        flex-direction: column;
-        align-items: center;
         width: 100%;
         height: 100%;
-        border-radius: 10px;
-    }
-
-    .profile-image {
-        width: 150px;
-        height: auto;
     }
 
     #h1-title-sobre {
@@ -855,67 +818,20 @@ textarea {
         margin: 5%;
     }
 
-    .profile-text {
-        font-family: 'Oswald', sans-serif;
-        font-size: 23px;
-        font-weight: 500;
-        text-align: center;
-        width: 80%;
-        height: 100px;
-        text-align: center;
-    }
-
-    .button-content {
-        display: block;
-        margin-top: 10px;
-    }
-
     .content-download {
-        width: 150px;
-        height: 50px;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-        margin-top: 40px;
         margin-left: 30%;
-    }
-
-    .download {
-        margin: 0;
-        justify-content: center;
-    }
-
-    a {
-        text-decoration: none;
-    }
-
-    .profile-button {
-        display: block;
-        margin-top: 10px;
     }
 
     .icons-container {
         width: 100%;
-        display: grid;
-        grid-template-columns: repeat(3, 2fr);
     }
 
     .icon-item {
-        width: 50%;
-        height: auto;
-        margin: center;
-        justify-content: center;
-        align-items: center;
+        width: 60%;
     }
 
     .profile-sinopse {
         width: 90%;
-        font-family: 'Oswald', sans-serif;
-        color: #fff;
-        font-size: 18px;
-        font-weight: 100;
-        text-align:justify;
-        margin-top: 1px;
         margin-left: 5%;
     }
 
@@ -952,7 +868,7 @@ textarea {
 
     .gallery-item-2, .gallery-item-4 {
         height: 30vh;
-        width: 65vw;
+        width: 60vw;
     }
 
     .gallery-item-3 {
@@ -964,75 +880,29 @@ textarea {
     
     .form-container {
         height: 140vh;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
         display: block;
     }
 
     .form-content {
         height: 70vh;
-        justify-content: center;
-        align-items: center;
-        display: block;
-        flex-direction: column;
     }
 
     form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         width: 65%;
         margin: 3%;
-        height: auto;
         margin-top: 40px;
     }
 
-    .form-text {
-        font-size: 30px;
-        margin-left: 60px;
-    }
-
-    label {
-        font-size: 20px;
-        font-weight: 100;
-    }
-
     textarea {
-        display: block;
-        width: 100%;
         max-width: 100%;
         min-width: 100%;
-        height: 300px;
         max-height: 100px;
         min-height: 100px;
     }
 
     .button-send {
         width: 30%;
-        height: 40px;
-        border-radius: 20px;
-        margin-top: 10px;
-        border: none;
-        background-color: #422c19;
-        color: #fff;
-        font-family: 'Oswald', sans-serif;
-        cursor: pointer;
-    }
-
-    .form-redes {
-        width: 400px;
-        height: auto;
-        display: flex;
-        justify-content: center;
-    }
-
-    .form-text-redes {
-        width: 100%;
-    }
-
-    .form-content-redes {
-        width: 80%;
+        height: 40px;  
     }
 
     .form-button {
