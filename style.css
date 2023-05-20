@@ -708,6 +708,10 @@ textarea {
         overflow-x: hidden;
     }
 
+    #nav.active header {
+        overflow-x:visible;
+    }
+
     #menu {
         display: block;
         position: absolute;
