@@ -53,7 +53,7 @@ window.addEventListener('mousemove', function(event){
 contexto.fillStyle = 'green'
 contexto.font = '150% oswald'
 contexto.fillText('My Projects', 30, 50)
-const coordenadasDoTexto = contexto.getImageData(0, 0, 300, 200)
+const coordenadasDoTexto = contexto.getImageData(0, 0, 300, 250)
 
 class Pontos{
   constructor(x, y){
