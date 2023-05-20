@@ -685,7 +685,7 @@ textarea {
 
 /* Fim do Contato */
 
-@media (max-width: 300px) {
+@media (max-width: 900px) {
     /* Menu */
     body {
         overflow-x: hidden;
