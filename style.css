@@ -913,6 +913,10 @@ textarea {
         height: 40px;  
     }
 
+    .form-text-redes {
+        font-size: 50px;
+    }
+
     .form-redes {
         width: 100%;
     }
