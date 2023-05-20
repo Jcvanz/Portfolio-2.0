@@ -6,11 +6,6 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    scroll-behavior: smooth;
-}
-
-html {
-    scroll-behavior: smooth;
 }
 
 /* Barra de navegação */
@@ -704,12 +699,11 @@ textarea {
     }
 
     header {
-        width: 100%;
         overflow-x: hidden;
     }
 
-    #nav.active header {
-        overflow-x:visible;
+    header.active{   
+        overflow-x: visible;
     }
 
     #menu {
@@ -720,6 +714,7 @@ textarea {
         background-color: #2b1d0b;
         z-index: 1000;
         height: 0px;
+        width: 100%;
         transition: .8s;
         visibility: hidden;
         overflow-y: hidden;
