@@ -706,6 +706,7 @@ textarea {
 
     header {
         overflow-x: hidden;
+        max-width: 900px;
     }
 
     #menu {
