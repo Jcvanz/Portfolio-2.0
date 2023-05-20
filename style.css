@@ -685,7 +685,7 @@ textarea {
 
 /* Fim do Contato */
 
-@media (max-width: 900px) {
+@media (max-width: 420px) {
     /* Menu */
 
     .logo {
@@ -732,6 +732,7 @@ textarea {
         border: none;
         background: none;
         cursor: pointer;
+        color: #000000;
     }
 
     #hamburger {
@@ -743,7 +744,7 @@ textarea {
         content: '';
         width: 25px;
         height: 3px;
-        background: black;
+        background-color: black;
         display: block;
         margin-top: 5px;
         transition: .3s;
@@ -781,7 +782,7 @@ textarea {
     }
 
     #home-title {
-        margin: 160px 0 0 45px;
+        margin: 160px 0 0 30px;
         font-family: 'Oswald', sans-serif;
         font-size: 25px;
         text-align: justify;
@@ -829,7 +830,7 @@ textarea {
         flex-direction: column;
         align-items: center;
         width: 100%;
-        height: 95%;
+        height: 100%;
         border-radius: 10px;
     }
 
@@ -1010,7 +1011,7 @@ textarea {
 
     .form-redes {
         width: 400px;
-        height: auto;
+        height: 400px;
         display: flex;
         justify-content: center;
     }
