@@ -687,6 +687,10 @@ textarea {
 
 @media (max-width: 400px) {
     /* Menu */
+    body {
+        overflow-x: hidden;
+        background-color: #2e2112;
+    }
 
     .logo {
         width: 40%;
