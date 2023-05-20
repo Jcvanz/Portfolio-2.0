@@ -685,7 +685,7 @@ textarea {
 
 /* Fim do Contato */
 
-@media (max-width: 420px) {
+@media (max-width: 400px) {
     /* Menu */
 
     .logo {
@@ -782,7 +782,7 @@ textarea {
     }
 
     #home-title {
-        margin: 160px 0 0 30px;
+        margin: 160px 0 0 25px;
         font-family: 'Oswald', sans-serif;
         font-size: 25px;
         text-align: justify;
