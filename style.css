@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 html {
@@ -701,6 +702,10 @@ textarea {
     .link-nav:hover {
         transform: scale(1);
         filter: none;
+    }
+
+    header {
+        overflow-x: hidden;
     }
 
     #menu {
