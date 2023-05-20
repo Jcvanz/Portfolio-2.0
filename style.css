@@ -715,6 +715,7 @@ textarea {
         transition: .8s;
         visibility: hidden;
         overflow-y: hidden;
+        overflow-x: hidden;
     }
 
     #nav.active #menu {
