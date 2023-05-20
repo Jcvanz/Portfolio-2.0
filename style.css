@@ -914,6 +914,7 @@ textarea {
     }
 
     .form-text-redes {
+        width: 95%;
         font-size: 50px;
     }
 
