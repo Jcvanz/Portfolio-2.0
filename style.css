@@ -952,7 +952,7 @@ textarea {
     /* --> Form <-- */
     
     .form-container {
-        height: 130vh;
+        height: 140vh;
         width: 100%;
         justify-content: center;
         align-items: center;
@@ -1011,7 +1011,7 @@ textarea {
 
     .form-redes {
         width: 400px;
-        height: 400px;
+        height: auto;
         display: flex;
         justify-content: center;
     }
